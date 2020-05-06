@@ -11,7 +11,7 @@ These can be set via the Updater app. These builds are known working,
 
 Additionally,
 * testing - For internal testing. Every build starts here.
-* otatest - For testing OTAs of upadtes. See https://gitlab.com/calyxos/calyxos/-/issues/13
+* otatest - For testing OTAs of updates. See https://gitlab.com/calyxos/calyxos/-/issues/13
 
 ### Devices
 | Codename | Name |
