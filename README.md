@@ -22,6 +22,8 @@ Additionally,
 | crosshatch | Pixel 3 XL |
 | sargo | Pixel 3a |
 | bonito | Pixel 3a XL |
+| flame | Pixel 4 |
+| coral | Pixel 4 XL |
 | jasmine_sprout | Xiaomi Mi A2 |
 
 ## Files
