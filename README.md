@@ -28,10 +28,16 @@ Additionally,
 
 ## Files
 
-### $device-$channel
-e.g. walleye-stable
+### $device-$channel (build_number timestamp build_id)
+e.g. walleye-stable (2020.05.06.14 1588775806 QQ2A.200501.001.B3)
 
 This indicates a stable build for the device walleye (Pixel 2)
+
+On the server, this is available as:
+walleye-ota_update-2020.05.06.14.zip
+walleye-factory-2020.05.06.14.zip
+
+Additionally, incremental updates are also generated against the previous stable build.
 
 ### $device-$channel-changelog.html
 e.g. walleye-stable-changelog.html
