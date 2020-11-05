@@ -24,6 +24,7 @@ Additionally,
 | bonito | Pixel 3a XL |
 | flame | Pixel 4 |
 | coral | Pixel 4 XL |
+| sunfish | Pixel 4a |
 | jasmine_sprout | Xiaomi Mi A2 |
 
 ## Files
