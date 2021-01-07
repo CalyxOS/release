@@ -16,6 +16,24 @@
       "revId": "39172f083f00c5b134aac1fa062fa17761443c24",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9ed19092_a2f9ded1",
+        "filename": "taimen-testing-changelog.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-07T12:28:05Z",
+      "side": 1,
+      "message": "Seems to look ok.",
+      "parentUuid": "d7efb718_87cde71a",
+      "revId": "39172f083f00c5b134aac1fa062fa17761443c24",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
     }
   ]
 }
