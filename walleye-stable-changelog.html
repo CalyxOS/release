@@ -1,6 +1,6 @@
 <body>
 <p>
-<h4>CalyxOS 2.5.0 - Android 11</h4>
+<h4>CalyxOS 2.6.1 - Android 11</h4>
 </p>
 <p style="border: 1px solid;">
 <b>Note:</b>
@@ -11,28 +11,28 @@ However, updates to the open source OS code and the Linux kernel
 can still be merged by us, and are included in this build.
 </p>
 <ul>
-<li>May Security update (2021-05-05)</li>
-<li>Built-in Work profile support - create a new work profile directly from Settings without having to install any third party apps.</li>
-<li>Create a work profile from Settings -> System -> Multiple users -> Add user or profile -> Work profile</li>
-<li>You can select which apps to include in the profile, and also turn it on and off as you want. More to come in future updates!</li>
-<li>Integration of Aurora Services for Aurora Store - Supports installing updates in the background seamlessly. New installs still need confirmation.</li>
-<li>Enable from: Aurora Store -> Settings -> Installation -> Installation method -> "Aurora Services"</li>
-<li>Prevent certain apps from bypassing the firewall when network access is completely disabled for them (i.e. the main toggle next to each app in Datura)</li>
-<li>VoLTE and Wi-Fi Calling support fixes, should now work on all carriers supported on stock</li>
-<li>microG: Include 'Alt sign in' option to fix account login issues</li>
-<li>Include option to prevent toggling quick settings when on a secure lockscreen (i.e. PIN / Password / Pattern set) - prevents using them completely</li>
-<li>Settings -> Security -> "Gear icon" next to Screen lock -> Quick settings - default is allow toggling from lockscreen</li>
-<li>Seedvault: Backup and restore Datura Firewall settings</li>
-<li>Seedvault: Backup and restore additional settings added to CalyxOS</li>
-<li>Seedvault: Call log backup speed improvements, should be a lot faster for those with a long history of calls.</li>
-<li>Dialer: Allow disabling calling account selection dialog (Signal / WhatsApp calling option), from Dialer -> menu (top right) -> Settings -> Display options</li>
-<li>Allow disabling Presidential alerts, from Settings -> Apps and notifications -> Advanced -> Wireless emergency alerts</li>
-<li>Active Edge Gesture: Fix settings being reset</li>
-<li>Enable Doze for improved battery life when using microG</li>
-<li>Datura Firewall: Fix sorting bug</li>
-<li>Music (Eleven): Upstream updates and bugfixes</li>
-<li>Calendar (Etar): Upstream updates and bugfixes</li>
-<li>Chromium: 90.0.4430.91</li>
+<li>June Security update and Feature drop (2021-06-05)</li>
+<li>Work profile v2: Big improvements to work profile creation, resolving issues with certain essential system apps not being enabled in the profile, not being able to see work profile apps in the recent screen, and work needed to support future work profile features.</li>
+<li>For the best experience, we would recommend deleting any profiles you created in the May build and starting over with a fresh new profile.</li>
+<li>Enable SeedVault backups for work profile, from Settings (in the main user) -> System -> Backup -> Work. Do note that USB is not available in work profiles due as Android does not support that.</li>
+<li>Handle microG better in work profile, enabling / disabling all of it&rsquo;s companion apps as needed.</li>
+<li>Firewall (Datura): Support work profile apps, improve icon and fix sorting of apps.</li>
+<li>AMOLED dark mode, aka pure black background for dark theme. Enable at Settings -> Display -> Dark theme -> Pure black</li>
+<li>Network traffic monitor feature, which shows network traffic indication in the status bar. Enable from Settings -> System -> Status bar -> Network traffic monitor</li>
+<li>Status bar icon configuration, allowing you to choose what to show. Configure in Settings -> System -> Status bar -> System icons</li>
+<li>Use rounded corners in the system where appropriate.</li>
+<li>Include a Maps app in the OS, Organic Maps. You can install it from F-Droid</li>
+<li>Bring in the Recorder app from LineageOS, allowing you to create sound recordings.</li>
+<li>F-Droid: Handle Trichrome updates better, fixing an issue with Trichrome Library updates where they would always show up as an update even after updating.</li>
+<li>Dialer: Use a restrictive WebView for Menu -> Helplines links, which clears it&rsquo;s history when you&rsquo;re done to avoid leaving any traces. Also add additional categories for the helplines.</li>
+<li>Panic trigger (Ripple): This will no longer show up as an update in Aurora Store</li>
+<li>Music (Eleven): Bug fixes and performance improvements</li>
+<li>You can also create screen recordings using the built-in recorder from the quick settings (what you see down the status bar)</li>
+<li>microG: Implement Font provider to support more applications, such as Google Fi</li>
+<li>microG: Update to v0.2.19.211515</li>
+<li>Chromium: Switch to 64-bit builds on all devices.</li>
+<li>Chromium: Update 91.0.4472.88</li>
 <li>Updates for all other included apps.</li>
+<li>Updated translations for all apps, and the OS.</li>
 </ul>
 </body>
