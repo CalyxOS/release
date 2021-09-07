@@ -27,6 +27,7 @@ Additionally,
 | sunfish | Pixel 4a |
 | redfin | Pixel 5 |
 | bramble | Pixel 4a (5G) |
+| barbet | Pixel 5a |
 | jasmine_sprout | Xiaomi Mi A2 |
 
 ## Files
