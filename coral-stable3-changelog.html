@@ -1,36 +1,39 @@
 <body>
 <p>
-<h4>CalyxOS 3.2.0 - Android 12</h4>
+<h4>CalyxOS 3.3.0 - Android 12L</h4>
 <ul>
-<li>February 2022 Security update (2022-02-05)</li>
+<li>March 2022 Security update (2022-03-05)</li>
 </ul>
 </p>
 <h3>Features and bug fixes</h3>
 <ul>
-<li>Chromium: 98.0.4758.87</li>
-<li>microG: v0.2.24.214816</li>
-<li>F-Droid: 1.14</li>
-<li>Multiple fixes all around for UI consistency</li>
-<li>Apply a green color palette to the OS, based on the default wallpaper</li>
-<li>Bring back font and icon shape customization. Settings -> Display</li>
-<li>Launcher: Visual improvements and bufixes</li>
-<li>Fix battery usage stats being reset</li>
-<li>Show vibration icon in status bar</li>
-<li>Add back saturated color mode</li>
-<li>Allow 3rd party apps to use fingerprint gestures</li>
-<li>Enable USB and skin temperature warnings</li>
-<li>Add Reading mode, color calibration and picture adjustment. Settings -> Display -> LiveDisplay</li>
-<li>Add High touch sensitivity / glove mode. Settings -> Display</li>
-<li>Add reading mode (grayscale) quicksettings tile</li>
-<li>Navigation bar: Allow inverting layout. Settings -> System -> Buttons</li>
-<li>Navigation bar: Allow hiding gesture navigation hint. Settings -> System -> Gestures -> System navigation -> Gesture navigation settings</li>
-<li>Import translations for all CalyxOS components</li>
-<li>Update all included apps</li>
+<li>Dynamic colour: Change your wallpaper and your entire Android experience changes to match.</li>
+<li>Using advanced colour extraction algorithms you can easily personalise the look and feel of your entire phone, including notifications, settings, widgets and even select apps.</li>
+<li>Fix USB issues - including detection of USB accessories such as flash drives, as well as detection by computers for file transfer.</li>
+<li>Chromium: 99.0.4844.58</li>
+<li>Improve Google camera performance on certain devices.</li>
+<li>microG: Push notification fixes, especially for apps such as Signal and Telegram.</li>
+<li>Add long press power for torch. Settings -&gt; System -&gt; Buttons -&gt; Long press for torch</li>
+<li>Add double tap status bar (or lockscreen) to sleep gesture. Settings -&gt; Display -&gt; Tap to sleep</li>
+<li>Add quick settings pull down with one finger. Settings -&gt; System -&gt; Status bar -&gt; Quick pulldown</li>
+<li>Allow enabling cross profile sharing. Settings -&gt; Passwords &amp; accounts -&gt; Work -&gt; Work profile settings -&gt; Cross-profile sharing</li>
+<li>Firewall: Restore Android 11 VPN toggle behavior, aka you can keep Wi-Fi and mobile data toggles off for an app and only leave VPN on - and it will still work, and only use the VPN.</li>
+<li>Hotspot &quot;Allow clients to use VPN&quot;: Always use the VPN running the main user, and not the work profile VPN.</li>
+<li>Add AudioFX app from LineageOS - Equalizer</li>
+<li>Avoid showing location indicator for microG and UnifiedNLP.</li>
+<li>Disable cross profile contact search and calendar by default.</li>
+<li>Firewall: Background network access fixes.</li>
+<li>Hide app feature - Temporarily hide an app, preserving all app data. Needs developer options enabled.</li>
+<li>Hide app by long pressing app and then tapping App info, or Settings -&gt; Apps -&gt; App name -&gt; &quot;Hide / Unhide&quot;.</li>
+<li>Re-add Global cleartext restriction developer option.</li>
+<li>Developer options: Turn off location indicator entirely, &quot;Status bar location indicator&quot;</li>
+<li>Users: SetupWizard improvements - microG setup, Seedvault restore.</li>
+<li>Update all included apps.</li>
+<li>Update translations for all apps, and the OS.</li>
 </ul>
 <h3>Known issues</h3>
 <ul>
-<li>Links not opening in apps - work in progress</li>
-<li>Location indicators are spammy, showing up for microG - will be fixed in next build</li>
-<li>VPN toggle in firewall not working the same as 11 - will be fixed in next build</li>
+<li>Custom icon shape and fonts get reset on wallpaper change / reboot - will be fixed in next build.</li>
+<li>Home screen layout gets reset on upgrade when using a custom grid size - looking into it.</li>
 </ul>
 </body>
