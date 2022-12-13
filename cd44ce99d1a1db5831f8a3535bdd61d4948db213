@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0dc8c56_afc4594e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-13T17:57:30Z",
+      "side": 1,
+      "message": "Sounds like we ought to wait for more information on this. So far there are only actually two reports. I\u0027m asking for more info.",
+      "revId": "cd44ce99d1a1db5831f8a3535bdd61d4948db213",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
