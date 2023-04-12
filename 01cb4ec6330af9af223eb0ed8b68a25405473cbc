@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ceb5b6b9_6cab08b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-12T16:01:24Z",
+      "side": 1,
+      "message": "I used the same devices listed here: https://review.calyxos.org/c/CalyxOS/release/+/16643\n\nAll of these are identical except panther and cheetah which are separate, but both identical with each other (have an extra line about VoWiFi).",
+      "revId": "01cb4ec6330af9af223eb0ed8b68a25405473cbc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
