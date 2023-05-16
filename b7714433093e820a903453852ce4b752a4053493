@@ -34,6 +34,24 @@
       "parentUuid": "5e7a66f0_4e079534",
       "revId": "b7714433093e820a903453852ce4b752a4053493",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d38b2030_0e12445d",
+        "filename": "axolotl-stable5-changelog.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-16T17:13:09Z",
+      "side": 1,
+      "message": "Fixed in https://review.calyxos.org/c/CalyxOS/release/+/17264",
+      "parentUuid": "33d5d573_cd31e4b6",
+      "revId": "b7714433093e820a903453852ce4b752a4053493",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
