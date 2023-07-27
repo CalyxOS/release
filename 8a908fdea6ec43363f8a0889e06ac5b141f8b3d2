@@ -16,6 +16,41 @@
       "message": "Awaiting results of testing / feedback on changelog",
       "revId": "8a908fdea6ec43363f8a0889e06ac5b141f8b3d2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e788240c_431afd4b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-27T20:21:03Z",
+      "side": 1,
+      "message": "Tab / tangorpro remains to be tested.\n\n4 / flame, I\u0027d like to be double checked just in case.",
+      "parentUuid": "d486d6e9_2fb3667b",
+      "revId": "8a908fdea6ec43363f8a0889e06ac5b141f8b3d2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d94225a8_90d47e05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-27T20:21:03Z",
+      "side": 1,
+      "message": "https://gitlab.com/CalyxOS/calyxos/-/issues/1753#note_1490444026",
+      "revId": "8a908fdea6ec43363f8a0889e06ac5b141f8b3d2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
