@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d486d6e9_2fb3667b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-27T14:30:19Z",
+      "side": 1,
+      "message": "Awaiting results of testing / feedback on changelog",
+      "revId": "8a908fdea6ec43363f8a0889e06ac5b141f8b3d2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
