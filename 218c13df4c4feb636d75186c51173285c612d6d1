@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0ce8f05_5867d8b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-07T18:31:02Z",
+      "side": 1,
+      "message": "At this point, we\u0027ll directly have 4.13.0 go to stable",
+      "revId": "218c13df4c4feb636d75186c51173285c612d6d1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
