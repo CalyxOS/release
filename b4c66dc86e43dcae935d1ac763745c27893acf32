@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ed6d728_d3e64cc7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-08T18:06:30Z",
+      "side": 1,
+      "message": "Changelog needs to reflect 4.12.2 changes too actually, since stable users are jumping up directly.",
+      "revId": "b4c66dc86e43dcae935d1ac763745c27893acf32",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
