@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e22da23f_aaef3c6c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-12T14:02:45Z",
+      "side": 1,
+      "message": "Changelog is wrong. Also, this won\u0027t go to stable",
+      "revId": "5c2fcef6237dd47eb3d4eb65062684d1e45e085d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
