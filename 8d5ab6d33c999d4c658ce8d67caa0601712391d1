@@ -16,6 +16,23 @@
       "message": "Friday",
       "revId": "8d5ab6d33c999d4c658ce8d67caa0601712391d1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e92fd069_3414ae42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-08-30T13:03:32Z",
+      "side": 1,
+      "message": "Will rebase after 5.10.3-2",
+      "revId": "8d5ab6d33c999d4c658ce8d67caa0601712391d1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
