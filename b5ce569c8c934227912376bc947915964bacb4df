@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4ebca45_ee7086b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-16T10:53:24Z",
+      "side": 1,
+      "message": "In theory this should be fine.\n\nDevices on 5.12.2 and 6.x will check for stable7, and for all of them it should say \u0027build timestamp older than current build\u0027.\n\nHowever I\u0027m not sure if there\u0027ll be side effects at all, and at this point I don\u0027t feel confident in experimenting, given stable is scheduled for Monday.\n\nStill, figured I\u0027d upload it as a reference for future usage if needed.",
+      "revId": "b5ce569c8c934227912376bc947915964bacb4df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
