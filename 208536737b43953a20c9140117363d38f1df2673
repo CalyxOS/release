@@ -16,6 +16,24 @@
       "message": "Wait for releases",
       "revId": "208536737b43953a20c9140117363d38f1df2673",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78d82981_122ab5a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-15T00:23:00Z",
+      "side": 1,
+      "message": "38358: 6.6.20: factory | https://review.calyxos.org/c/CalyxOS/releases/+/38358",
+      "parentUuid": "8849a1e9_83401df8",
+      "revId": "208536737b43953a20c9140117363d38f1df2673",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
