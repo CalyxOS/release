@@ -51,6 +51,24 @@
       "parentUuid": "def616db_c4ebb8d6",
       "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f9ac43f_1ebd9b70",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-21T16:54:18Z",
+      "side": 1,
+      "message": "Pre-signed was used. So this is fine.\n\nThe testkeys-signed `vendor/calyx/scripts/generate_metadata.py calyx_akita-target_files-25608200.zip` has the same date as shown here: https://review.calyxos.org/c/CalyxOS/release/+/39671/1/akita-testing\n\nAnd that timestamp doesn\u0027t change by the time it has reached stable.",
+      "parentUuid": "e01f8e57_a7241461",
+      "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
