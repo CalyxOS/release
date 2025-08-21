@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "71e3be53_46406d1f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-21T15:31:15Z",
+      "side": 1,
+      "message": "`for f in {6.10.10,6.10.20}/calyx_*.zip; do ~/android/calyx/android15-qpr2/vendor/calyx/scripts/generate_metadata.py \"$f\"; done`",
+      "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
