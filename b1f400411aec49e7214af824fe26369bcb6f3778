@@ -33,6 +33,24 @@
       "message": "The timestamp turns out different when I run generate_metadata on the signed target files...",
       "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e01f8e57_a7241461",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-21T16:51:43Z",
+      "side": 1,
+      "message": "Based on the code, I don\u0027t think it actually matters, as long as the timestamp is newer than the timestamp of the build on the device.\n\nLet me check which timestamps were used in the past, signed or pre-signed.",
+      "parentUuid": "def616db_c4ebb8d6",
+      "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
