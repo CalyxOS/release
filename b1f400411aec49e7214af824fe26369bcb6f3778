@@ -87,6 +87,23 @@
       "parentUuid": "9f9ac43f_1ebd9b70",
       "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77214b84_c1f2f18e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-21T17:02:37Z",
+      "side": 1,
+      "message": "I don\u0027t know how someone ever verifies that something like this \"works\", since it needs to be submitted in order to know if it works. But with that metric, we could never reliable mark that it works...\n\nI\u0027ll just bypass verification for now, and we can submit when ready.",
+      "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
