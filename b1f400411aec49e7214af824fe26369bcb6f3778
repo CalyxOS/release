@@ -16,6 +16,23 @@
       "message": "`for f in {6.10.10,6.10.20}/calyx_*.zip; do ~/android/calyx/android15-qpr2/vendor/calyx/scripts/generate_metadata.py \"$f\"; done`",
       "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "def616db_c4ebb8d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-21T15:41:39Z",
+      "side": 1,
+      "message": "The timestamp turns out different when I run generate_metadata on the signed target files...",
+      "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
