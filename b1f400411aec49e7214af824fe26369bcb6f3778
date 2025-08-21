@@ -69,6 +69,24 @@
       "parentUuid": "e01f8e57_a7241461",
       "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17e0c2f4_2fa7f305",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-21T16:59:42Z",
+      "side": 1,
+      "message": "Never mind all of this. The timestamps *are* the same for both already! I was looking in the wrong place (need more sleep). So there is no concern.",
+      "parentUuid": "9f9ac43f_1ebd9b70",
+      "revId": "b1f400411aec49e7214af824fe26369bcb6f3778",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
