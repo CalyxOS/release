@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2da826b_bbc3ef1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-09-02T13:57:59Z",
+      "side": 1,
+      "message": "looks good, but I didn\u0027t verify all number  changes manually",
+      "revId": "aa6d24493a37184feb44903ffcb9983780678521",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
