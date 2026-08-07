@@ -1,0 +1,43 @@
+#!/usr/bin/env python3
+#
+# SPDX-FileCopyrightText: The Calyx Institute
+# SPDX-License-Identifier: Apache-2.0
+#
+
+import os
+import shutil
+import fnmatch
+import argparse
+
+def copy_and_rename_files(old_keyword, new_keyword):
+    """
+    Finds matching files in current directory tree and creates a copy
+    with old_keyword replaced by new_keyword in the same directory.
+    """
+    patterns = [f'*{old_keyword}']
+    # Only look for changelog if NOT factory
+    if new_keyword != 'factory':
+        patterns.append(f'*{old_keyword}-changelog.html')
+
+    for root, dirs, files in os.walk('.'):
+        if 'ro' in dirs:
+            dirs.remove('ro')
+
+        for filename in files:
+            if any(fnmatch.fnmatch(filename, pattern) for pattern in patterns):
+                target_filename = filename.replace(old_keyword, new_keyword)
+
+                src_file = os.path.join(root, filename)
+                dst_file = os.path.join(root, target_filename)
+
+                print(f"Copying: {filename} -> {target_filename}")
+                shutil.copy2(src_file, dst_file)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Copy and rename files in-place within current directory.")
+    parser.add_argument("old_keyword", help="The suffix to find (e.g., 'testing')")
+    parser.add_argument("new_keyword", help="The suffix to replace with (e.g., 'beta')")
+
+    args = parser.parse_args()
+
+    copy_and_rename_files(args.old_keyword, args.new_keyword)
